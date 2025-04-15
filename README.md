@@ -1,0 +1,216 @@
+´<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products catalog</title>
+    <link rel="stylesheet" href="testcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="keywords" content="product catalog, e-commerce, online shopping, product listing, WhatsApp inquiry, Moroccan products, copper tray, tea pot, wall decor plate">
+    <meta name="author" content="NHARI AYOUB">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="website">
+    <script src="test.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 style="background-color: gold; border-radius: 40px; width: 50px;">Product Catalog</h1>
+        <p style="text-align: center; font-weight: 100; font-size: 15px; color: rgb(38, 34, 34); font-style: normal;font-weight: bolder; width: max-content; cursor: pointer;">Some Copper Products From Jarfi Artisanant.</p>
+        <input type="search" id="search" placeholder="Search for products..." onkeyup="searchProducts()" style="width: 100%; padding: 10px; margin: 20px 0; border-radius: 5px; border: 1px solid #ccc;">
+        <div class="filter-container">
+            <label for="category">Filter by Category:</label>
+            <select id="category" onchange="filterProducts()">
+                <option value="ALL">All</option>
+                <option value="copper light">COPPRE LIGHT</option>
+                <option value="COPPER TEA CUPS">COPPER TEA CUPS</option>
+                <option value="COPPER DECOR">COPPER DECOR</option>
+            </select>
+          </div>
+        <div class="container">
+            <div class="product-list">
+              <div class="product">
+                <a href="file:///C:/Users/hp/Desktop/p-products/p-products.html#" target="_blank" ><img src="https://cdn.andlight.dk/images/tom_dixon/Tom-Dixon-fade-pendant-copper-50cm-cluster-off-p.gif" alt="Copper Tray" /></a>
+                <h4>Copper Tray</h4>
+                <p>Handcrafted Moroccan copper tray, ideal for serving tea or decoration.</p>
+                <div class="price">$45.00</div>
+                <div class="button">
+                  <a href="https:/wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+        
+              <div class="product">
+                <a href="file:///C:/Users/hp/Desktop/pproducts2/pproducts2..html" target="_blank" ><img src="https://th.bing.com/th/id/OIP.kib-2wLoFiUekphhrpQFZQHaIJ?rs=1&pid=ImgDetMain" alt="Copper Tray" /></a>
+                <h4>Copper Tray</h4>
+                <p>Handcrafted Moroccan copper tray, ideal for serving tea or decoration.</p>
+                <div class="price">$45.00</div>
+                <div class="button">
+                  <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                </div>
+              </div>
+        
+              <div class="product">
+                <a href="file:///C:/Users/hp/Downloads/p-products/p-products.html#" target="_blank" ><img src="https://res.cloudinary.com/shufersal/image/upload/f_auto,q_auto/v1551800922/prod/product_images/products_zoom/JTL52_Z_P_7296073515340_1.png" alt="Copper Tray" /></a>
+                <h4>Copper Tray</h4>
+                <p>Handcrafted Moroccan copper tray, ideal for serving tea or decoration.</p>
+                <div class="price">$45.00</div>
+                <div class="button">
+                  <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                </div>
+              </div>
+        
+              <div class="product">
+                <a href="file:///C:/Users/hp/Downloads/p-products/p-products.html#" target="_blank" ><img src="https://jiting.be/wp-content/uploads/2020/08/Schermafbeelding-2020-08-28-om-17.56.29.png" alt="Copper Tray" /></a>
+                <h4>Copper Tray</h4>
+                <p>Handcrafted Moroccan copper tray, ideal for serving tea or decoration.</p>
+                <div class="price">$45.00</div>
+                <div class="button">
+                  <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                </div>
+              </div>
+        
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+              <div class="product">
+                <a href="#"><img src="https://cdn.myonlinestore.eu/93d21272-6be1-11e9-a722-44a8421b9960/image/cache/full/a8a7b96aad90d733960ec6a686f843023773541d.jpg" alt="Tea Pot" /></a>
+                <h4>Moroccan Tea Pot</h4>
+                <p>Classic copper tea pot, perfect for traditional tea ceremonies.</p>
+                <div class="price">$60.00</div>
+                <div class="button">
+                   <a href="https://wa.me/+212666077054" target="_blank"><button class="whasp" type="button">Whatssapp</button></a>
+                  
+                </div>
+              </div>
+        
+              <div class="product">
+                <a href="#"><img src="https://arabhomedecor.com/wp-content/uploads/2008/10/11022-Moroccan-Engraved-Alpaca-Teapot-Maghreb-Model.jpg" alt="Wall Decor" /></a>
+                <h4>Wall Decor Plate</h4>
+                <p>Beautiful engraved copper plate to hang on your wall.</p>
+                <div class="price">$35.00</div>
+                <div class="button">
+                  <a href="https://wa.me/+212666077054" target="_blank"> <button class="whasp" type="button">Whatssapp</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+</body>
+</html>
